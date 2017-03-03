@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestScripts.IncidentFormCustomerApprover1">
+        <methods>
+          <include name="IncidentForm_CustomerApprover"/>
+        </methods>
+      </class> <!-- TestScripts.IncidentFormCustomerApprover1 -->
+      <class name="TestScripts.VendorGroups">
+        <methods>
+          <include name="VendorGroup"/>
+        </methods>
+      </class> <!-- TestScripts.VendorGroups -->
+      <class name="TestScripts.Registration">
+        <methods>
+          <include name="close"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestScripts.Registration -->
+      <class name="TestScripts.ManageTeam">
+        <methods>
+          <include name="ManageTeam"/>
+        </methods>
+      </class> <!-- TestScripts.ManageTeam -->
+      <class name="TestScripts.IncidentFormcCustomerRequestor">
+        <methods>
+          <include name="IncidentForm_CustomerRequestor"/>
+        </methods>
+      </class> <!-- TestScripts.IncidentFormcCustomerRequestor -->
+      <class name="TestScripts.IncidentFormDelegatedCustomerSuperAdmin">
+        <methods>
+          <include name="IncidentFormDelegatedCustomerSuperAdmin"/>
+        </methods>
+      </class> <!-- TestScripts.IncidentFormDelegatedCustomerSuperAdmin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
